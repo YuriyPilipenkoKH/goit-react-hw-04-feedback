@@ -1,7 +1,7 @@
 import React from 'react';
 import  ReactDOM  from 'react-dom/client';
 import  "./css/index.css";
-import { App } from './components/App/App';
+import  App from './App/App';
 import { ThemeProvider } from '@emotion/react';
 import { theme } from './constants/theme';
 
