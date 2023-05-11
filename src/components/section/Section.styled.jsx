@@ -19,7 +19,7 @@ export const MainTitle = styled.h2`
   color: var(--teal);
   margin: 0;
   padding: 8px 16px;
-  background-color: var(--beige);
+  /* background-color: var(--beige); */
   border-radius: 10px;
   border: 4px solid var(--teal);
   box-shadow: var(--shadow-four);

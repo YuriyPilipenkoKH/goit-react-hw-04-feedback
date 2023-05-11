@@ -303,7 +303,8 @@ img {
 }
 
 .iconReactHook{
-  fill:var(--react-color);
+  transition: all 0.4s;
+  /* fill:var(--react-color); */
 }
 
 .to-top-button.visible {

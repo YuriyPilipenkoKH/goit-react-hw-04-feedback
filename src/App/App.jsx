@@ -4,7 +4,7 @@ import { Section } from 'components/section/Section';
 import { FeedbackOptions } from 'components/FeedbackOptions/FeedbackOptions';
 import { Statistics } from 'components/Statistics/Statistics';
 import { Notification } from 'components/Notification/Notification';
-import { iconReactHook } from 'utils/svgIcons';
+
 
 
 export default function App(){

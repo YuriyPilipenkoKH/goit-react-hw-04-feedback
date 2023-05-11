@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import { Btn , BtnWrapper} from './FeedbackOptions.styled';
+import { iconReactHook } from 'utils/svgIcons';
 
 export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (
@@ -13,7 +14,7 @@ export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
               key={option}
               className='btn'  
             >
-              {option}
+              {option} { iconReactHook }
             </Btn>
           );
         })}
