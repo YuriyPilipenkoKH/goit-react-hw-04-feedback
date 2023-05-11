@@ -24,18 +24,18 @@ export const Btn = styled.button`
     outline: none;
     cursor: pointer;
     transition: all 0.4s;
-    width: 160px;
+    width: 150px;
     height: 44px;
 
     :hover,
     :focus  {
     outline: none;
     background-color: var(--green);
-    color: #fbf7f3;
+    color: var(--background-color);
     box-shadow: var(--shadow-two);  
     
      & >svg {
-        fill: #eee;
+        fill: var(--background-color);
 
      }
 
